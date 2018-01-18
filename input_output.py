@@ -4,6 +4,6 @@ answer = raw_input()
 print "so you are %s" %answer
 
 #shortest way 
-name = raw_input("Whats your light saber colour?\n")
-print name
+colour = raw_input("Whats your light saber colour?\n")
+print colour
 
