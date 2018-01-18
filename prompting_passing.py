@@ -4,4 +4,9 @@ from sys import argv
 #assign variabe to store value give by user
 script,name = argv
 prompt = ">" 
-print "Hi %s, I'm the." % (name)
+if name == "firdaus":
+	print "Hi %s, I'm the %s." %(name,script) 
+	print "Hi %s, I'm the %s." %(name,script) 
+else:
+	print "Im fail"
+
